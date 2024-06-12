@@ -24,3 +24,31 @@ switch(choix){
         break
 
 }
+
+let nbre1 = parseFloat(prompt("Veuillez entrer un premier nombre: "))
+let operateur = prompt('Veuillez choisir votre opérateur entre + ; - ; * : ')
+let nbre2 = parseFloat(prompt("Veuillez entrer un deuxième nombre: "))
+let resultat
+
+switch(operateur){
+    case "+" :
+        resultat = nbre1 + nbre2
+        break
+    case "-" :
+        resultat = nbre1 - nbre2
+        break
+    case "*" :
+        resultat = nbre1 * nbre2
+        break
+    case "/" :
+        resultat = nbre1 / nbre2
+        break
+    default:
+        console.log("Cet opérateur n'est pas valide")
+        break
+
+}
+console.log(nbre1 + operateur + nbre2 + " = " + resultat)
+
+
+
