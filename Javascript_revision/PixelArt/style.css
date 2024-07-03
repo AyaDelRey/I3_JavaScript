@@ -1,0 +1,26 @@
+td {
+    border : 1px solid black;
+    width: 60px;
+    height: 60px;
+
+}
+
+#canva {
+    border-collapse: collapse;
+}
+
+.Jaune{
+    background-color: yellow;
+}
+.Bleu{
+    background-color: blue;
+}
+.Vert{
+    background-color: green;
+}
+.Rouge{
+    background-color: red;
+}
+.Violet{
+    background-color: blueviolet;
+}
